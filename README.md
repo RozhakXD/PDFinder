@@ -37,7 +37,9 @@ Coba PDFinder langsung di sini: [PDFinder](https://www.pdfinder.rozhakxd.my.id/)
 - **Tentukan jumlah hasil**: Masukkan jumlah hasil yang ingin ditampilkan.
 
 ## 📸 Tangkapan Layar
-![Gambar PDFinder](https://github.com/user-attachments/assets/6df0c0fc-c904-44a8-b18b-5690398f84d7)
+![Gambar HomePage](https://github.com/user-attachments/assets/4a90f50e-db14-4919-b103-bbb3975a0715)
+
+![Gambar Hasil](https://github.com/user-attachments/assets/6df0c0fc-c904-44a8-b18b-5690398f84d7)
 
 ## ☕ Dukungan
 Jika Anda menemukan PDFinder berguna dan ingin mendukung pengembangannya, Anda bisa memberikan dukungan melalui:
