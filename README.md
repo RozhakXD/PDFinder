@@ -1,5 +1,5 @@
 # PDFinder
-[PDFinder](https://github.com/RozhakXD/PDFinder) adalah solusi cepat dan sederhana untuk mencari dan mengunduh file PDF. Dengan tampilan yang user-friendly, PDFinder memudahkan Anda untuk menemukan dokumen yang Anda butuhkan hanya dengan beberapa langkah mudah. Tinggalkan pencarian manual yang memakan waktu—PDFinder hadir untuk membantu Anda menemukan file PDF secara efisien dan cepat.
+[PDFinder](https://github.com/RozhakXD/PDFinder) adalah alat pencarian PDF yang cepat dan mudah digunakan, dirancang untuk membantu Anda menemukan dokumen PDF dengan lebih efisien. Cukup masukkan kata kunci Anda, pilih jumlah hasil yang diinginkan, dan biarkan PDFinder menampilkan hasil terbaik untuk Anda. Aplikasi ini menghilangkan kerumitan pencarian manual dan menghadirkan solusi yang tepat di ujung jari Anda.
 
 ## 🚀 Demo
 Coba PDFinder langsung di sini: [PDFinder](https://www.pdfinder.rozhakxd.my.id/)
