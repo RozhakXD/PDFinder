@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDFinder - Temukan PDF dengan Cepat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='icons/pdFinder.ico') }}" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="{{ url_for('static', filename='icons/pdf-icon.png') }}" alt="PDF Icon" class="logo">
+            <h1>PDFinder</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <form id="searchForm">
+            <div class="input-group">
+                <input type="text" id="query" placeholder="Pertanyaan" required>
+                <input type="number" id="count" placeholder="Jumlah" required>
+            </div>
+            <button type="submit">
+                <img src="{{ url_for('static', filename='icons/search.png') }}" alt="Search Icon"> Search
+            </button>
+        </form>
+
+        <div id="loading">Loading...</div>
+        <div id="results"></div>
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-status"></h2>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
+    <div id="copy-modal" class="modal">
+        <div class="modal-content">
+            <span id="copy-close-btn" class="close-btn">&times;</span>
+            <h2 id="modal-status">🎉 Sukses!</h2>
+            <p>Link berhasil disalin!</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 PDFinder. All rights reserved.</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
